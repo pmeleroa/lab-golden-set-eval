@@ -1,0 +1,164 @@
+{
+  "config": {
+    "modelo": "qwen2.5:7b",
+    "temperatura": 0.0,
+    "seed": 42,
+    "prompt": "v1.txt",
+    "prompt_sha": "96a29518",
+    "split": "dev",
+    "split_sha": "fb45641d",
+    "fecha": "2026-10-08T20:31:07"
+  },
+  "resultados": [
+    {
+      "id": "dev-01",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Esta descripción se clasifica como un \"bug\". Parece que hay un problema técnico que impide guardar nuevos proyectos, lo cual es un error inesperado en el funcionamiento normal del sistema."
+    },
+    {
+      "id": "dev-02",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug\n\nDescripción del problema: El buscador no está devolviendo ningún resultado después de la última actualización, a pesar de tener cientos de documentos disponibles."
+    },
+    {
+      "id": "dev-03",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug\n\nLa descripción del problema indica que hay un error en la fecha de las tareas, lo cual parece ser un problema técnico o \"bug\" en el sistema."
+    },
+    {
+      "id": "dev-04",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug\n\nDescripción del problema: La aplicación se cierra automáticamente al abrir la pestaña de informes."
+    },
+    {
+      "id": "dev-05",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug"
+    },
+    {
+      "id": "dev-06",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug\n\nDescripción del problema: El cliente está experimentando duplicidad en las notificaciones por correo, donde cada aviso se recibe dos veces."
+    },
+    {
+      "id": "dev-07",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: bug\n\nDescripción del problema: El botón de exportar a PDF no funciona correctamente, ni siquiera muestra algún tipo de error cuando se intenta usarlo."
+    },
+    {
+      "id": "dev-08",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Esta situación se clasifica como un \"bug\". Parece que hay un problema técnico con la funcionalidad de edición de comentarios."
+    },
+    {
+      "id": "dev-09",
+      "expected": "bug",
+      "dificultad": "trampa",
+      "respuesta": "Categoría: Bug\n\nDescripción del problema: El usuario está experimentando un error 500 cada vez que intenta abrir la página de facturas, lo cual sugiere que hay un problema técnico en el servidor o en el sistema que está causando este error."
+    },
+    {
+      "id": "dev-10",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Bug\n\nDescripción del problema: El calendario no está mostrando las tareas programadas para la semana que viene, limitándose solo a mostrar las tareas de la semana actual."
+    },
+    {
+      "id": "dev-11",
+      "expected": "bug",
+      "dificultad": "ambiguo",
+      "respuesta": "Esto parece involucrar tanto un problema de facturación como un problema de acceso. Sin embargo, basándome en la información proporcionada, clasificaría este ticket en las siguientes categorías:\n\n1. **Facturación**: Porque menciona que se le ha cobrado la renovación dos veces.\n2. **Acceso**: Porque indica que el panel no carga, lo que podría ser un problema de acceso o funcionalidad.\n\nRecomendaría dividir el ticket en dos para manejar cada problema de manera independiente."
+    },
+    {
+      "id": "dev-12",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "Esta situación se clasifica en la categoría de \"facturación\". Parece que hay un error en la facturación de su cuenta."
+    },
+    {
+      "id": "dev-13",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: facturación\n\nDescripción: El cliente necesita recibir la factura correspondiente al mes de marzo, especificando que el NIF proporcionado es el de la empresa, no el personal."
+    },
+    {
+      "id": "dev-14",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "Esta solicitud se clasifica en la categoría de \"facturación\"."
+    },
+    {
+      "id": "dev-15",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Facturación\n\nDescripción del problema: El cliente canceló su suscripción la semana pasada pero ha recibido un nuevo cargo, lo cual considera incorrecto y solicita la devolución del mismo."
+    },
+    {
+      "id": "dev-16",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "Esta pregunta parece relacionada con la facturación, ya que se refiere a la renovación de un plan anual."
+    },
+    {
+      "id": "dev-17",
+      "expected": "facturación",
+      "dificultad": "trampa",
+      "respuesta": "Categoría: facturación"
+    },
+    {
+      "id": "dev-18",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Acceso\n\nDescripción del problema: El usuario está teniendo dificultades para recibir el correo electrónico necesario para restablecer su contraseña."
+    },
+    {
+      "id": "dev-19",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Acceso\n\nEsta situación parece estar relacionada con el proceso de autenticación de dos pasos, lo cual es un aspecto del acceso a su cuenta. Al cambiar de móvil, es probable que haya perdido el método de generación de códigos de verificación, lo que dificulta el acceso a su cuenta."
+    },
+    {
+      "id": "dev-20",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: Acceso\n\nDescripción: El cliente está reportando que su cuenta ha sido bloqueada después de varios intentos fallidos, lo cual parece ser un problema relacionado con el acceso a su cuenta."
+    },
+    {
+      "id": "dev-21",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "Esta solicitud se clasifica en la categoría de \"acceso\". Parece que necesitas ayuda para otorgar permisos de administrador a una compañera, lo cual generalmente se relaciona con los permisos de usuario o acceso a ciertas funcionalidades del sistema."
+    },
+    {
+      "id": "dev-22",
+      "expected": "acceso",
+      "dificultad": "ambiguo",
+      "respuesta": "Tu ticket se clasifica en las categorías de \"acceso\" y \"facturación\". Parece que estás teniendo problemas para acceder a tu cuenta y también has notado un posible error en la facturación donde se ha cobrado dos veces en este mes."
+    },
+    {
+      "id": "dev-23",
+      "expected": "petición",
+      "dificultad": "fácil",
+      "respuesta": "Categoría: petición\n\nLa solicitud de agregar el tema oscuro en la app es una petición de funcionalidad o mejora en la interfaz de usuario."
+    },
+    {
+      "id": "dev-24",
+      "expected": "petición",
+      "dificultad": "trampa",
+      "respuesta": "Categoría: bug\n\nDescripción: El usuario está reportando que el límite de exportación de 1.000 filas es un problema de diseño o funcionalidad, ya que necesita exportar más de esa cantidad de filas."
+    },
+    {
+      "id": "dev-25",
+      "expected": "petición",
+      "dificultad": "ambiguo",
+      "respuesta": "Categoría: Facturación\n\nEsta petición se relaciona con la forma de pago disponible en el sistema, lo cual generalmente se maneja en el área de facturación o servicios financieros."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "config": {
+    "modelo": "qwen2.5:7b",
+    "temperatura": 0.0,
+    "seed": 42,
+    "prompt": "v3.txt",
+    "prompt_sha": "954b777a",
+    "split": "dev",
+    "split_sha": "fb45641d",
+    "fecha": "2026-10-08T20:31:53"
+  },
+  "resultados": [
+    {
+      "id": "dev-01",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-02",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-03",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-04",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-05",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-06",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-07",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-08",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-09",
+      "expected": "bug",
+      "dificultad": "trampa",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-10",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-11",
+      "expected": "bug",
+      "dificultad": "ambiguo",
+      "respuesta": "bug"
+    },
+    {
+      "id": "dev-12",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-13",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-14",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-15",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-16",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-17",
+      "expected": "facturación",
+      "dificultad": "trampa",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "dev-18",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "dev-19",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "dev-20",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "dev-21",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "dev-22",
+      "expected": "acceso",
+      "dificultad": "ambiguo",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "dev-23",
+      "expected": "petición",
+      "dificultad": "fácil",
+      "respuesta": "petición"
+    },
+    {
+      "id": "dev-24",
+      "expected": "petición",
+      "dificultad": "trampa",
+      "respuesta": "petición"
+    },
+    {
+      "id": "dev-25",
+      "expected": "petición",
+      "dificultad": "ambiguo",
+      "respuesta": "petición"
+    }
+  ]
+}

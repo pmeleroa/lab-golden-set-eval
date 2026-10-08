@@ -1,0 +1,104 @@
+{
+  "config": {
+    "modelo": "qwen2.5:7b",
+    "temperatura": 0.0,
+    "seed": 42,
+    "prompt": "v3.txt",
+    "prompt_sha": "954b777a",
+    "split": "test",
+    "split_sha": "9e3eb496",
+    "fecha": "2026-10-08T20:32:09"
+  },
+  "resultados": [
+    {
+      "id": "test-01",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-02",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-03",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-04",
+      "expected": "bug",
+      "dificultad": "fácil",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-05",
+      "expected": "bug",
+      "dificultad": "trampa",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-06",
+      "expected": "bug",
+      "dificultad": "ambiguo",
+      "respuesta": "bug"
+    },
+    {
+      "id": "test-07",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "petición"
+    },
+    {
+      "id": "test-08",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "test-09",
+      "expected": "facturación",
+      "dificultad": "fácil",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "test-10",
+      "expected": "facturación",
+      "dificultad": "trampa",
+      "respuesta": "facturación"
+    },
+    {
+      "id": "test-11",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "test-12",
+      "expected": "acceso",
+      "dificultad": "fácil",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "test-13",
+      "expected": "acceso",
+      "dificultad": "ambiguo",
+      "respuesta": "acceso"
+    },
+    {
+      "id": "test-14",
+      "expected": "petición",
+      "dificultad": "fácil",
+      "respuesta": "petición"
+    },
+    {
+      "id": "test-15",
+      "expected": "petición",
+      "dificultad": "fácil",
+      "respuesta": "petición"
+    }
+  ]
+}
