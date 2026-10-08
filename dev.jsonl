@@ -1,0 +1,25 @@
+{"id": "dev-01", "input": "Cuando intento guardar un proyecto nuevo me sale 'Error inesperado' y no se guarda nada.", "expected": "bug", "dificultad": "fácil", "nota": "Una función que falla con error."}
+{"id": "dev-02", "input": "Desde la última actualización el buscador no devuelve ningún resultado, aunque tengo cientos de documentos.", "expected": "bug", "dificultad": "fácil", "nota": "El buscador ha dejado de funcionar."}
+{"id": "dev-03", "input": "Las fechas de las tareas aparecen un día antes de la que puse al crearlas.", "expected": "bug", "dificultad": "fácil", "nota": "Datos que se guardan o muestran mal."}
+{"id": "dev-04", "input": "La app del móvil se cierra sola en cuanto abro la pestaña de informes.", "expected": "bug", "dificultad": "fácil", "nota": "Cierre inesperado de la app."}
+{"id": "dev-05", "input": "Subo una imagen de perfil y se queda cargando para siempre.", "expected": "bug", "dificultad": "fácil", "nota": "La subida no termina nunca."}
+{"id": "dev-06", "input": "Las notificaciones por correo me llegan duplicadas, cada aviso dos veces.", "expected": "bug", "dificultad": "fácil", "nota": "Comportamiento incorrecto del envío de avisos."}
+{"id": "dev-07", "input": "El botón de exportar a PDF no hace nada, ni siquiera da error.", "expected": "bug", "dificultad": "fácil", "nota": "Una función que no responde."}
+{"id": "dev-08", "input": "He editado un comentario y al recargar vuelve a aparecer el texto antiguo.", "expected": "bug", "dificultad": "fácil", "nota": "El cambio no se guarda."}
+{"id": "dev-09", "input": "La página de facturas me da un error 500 cada vez que intento abrirla.", "expected": "bug", "dificultad": "trampa", "nota": "Regla 1: dice 'facturas', pero hay que arreglar la página, no revisar un cobro."}
+{"id": "dev-10", "input": "El calendario no muestra las tareas de la semana que viene, solo las de esta.", "expected": "bug", "dificultad": "fácil", "nota": "El calendario no muestra datos que existen."}
+{"id": "dev-11", "input": "Desde ayer el panel no carga y encima me habéis cobrado la renovación dos veces.", "expected": "bug", "dificultad": "ambiguo", "nota": "Regla 2: mezcla bug y facturación; gana bug porque impide usar el producto ahora."}
+{"id": "dev-12", "input": "Me habéis cobrado 49 € este mes cuando mi plan es de 29 €.", "expected": "facturación", "dificultad": "fácil", "nota": "Importe incorrecto en un cobro."}
+{"id": "dev-13", "input": "Necesito la factura de marzo con el NIF de mi empresa, la que tengo sale a mi nombre.", "expected": "facturación", "dificultad": "fácil", "nota": "Corrección de datos de una factura."}
+{"id": "dev-14", "input": "Quiero cambiar la tarjeta con la que pago la suscripción.", "expected": "facturación", "dificultad": "fácil", "nota": "Cambio de método de pago."}
+{"id": "dev-15", "input": "Cancelé la suscripción la semana pasada y hoy me ha llegado otro cargo. ¿Me lo podéis devolver?", "expected": "facturación", "dificultad": "fácil", "nota": "Reembolso de un cargo."}
+{"id": "dev-16", "input": "¿Cuándo se renueva mi plan anual?", "expected": "facturación", "dificultad": "fácil", "nota": "Regla 4: duda sin problema concreto; el tema es el plan."}
+{"id": "dev-17", "input": "Error en el importe: el recibo dice 59 € pero acepté una oferta de 39 €.", "expected": "facturación", "dificultad": "trampa", "nota": "Regla 1: dice 'error', pero hay que corregir un cobro, no arreglar el producto."}
+{"id": "dev-18", "input": "No me llega el correo para restablecer la contraseña.", "expected": "acceso", "dificultad": "fácil", "nota": "No puede recuperar la contraseña."}
+{"id": "dev-19", "input": "He cambiado de móvil y ya no puedo generar los códigos de verificación en dos pasos.", "expected": "acceso", "dificultad": "fácil", "nota": "Verificación en dos pasos."}
+{"id": "dev-20", "input": "Mi cuenta aparece como bloqueada después de varios intentos fallidos.", "expected": "acceso", "dificultad": "fácil", "nota": "Cuenta bloqueada."}
+{"id": "dev-21", "input": "Necesito dar permisos de administrador a una compañera y no encuentro cómo.", "expected": "acceso", "dificultad": "fácil", "nota": "Gestión de permisos."}
+{"id": "dev-22", "input": "No puedo entrar en mi cuenta y además me habéis cobrado dos veces este mes.", "expected": "acceso", "dificultad": "ambiguo", "nota": "Regla 2: mezcla acceso y facturación; gana acceso porque impide usar el producto ahora."}
+{"id": "dev-23", "input": "Estaría genial poder poner el tema oscuro en la app.", "expected": "petición", "dificultad": "fácil", "nota": "Funcionalidad que no existe."}
+{"id": "dev-24", "input": "Sé que el límite de exportación es de 1.000 filas, pero es un fallo de diseño: necesito exportar más.", "expected": "petición", "dificultad": "trampa", "nota": "Regla 3: dice 'fallo', pero el límite existe a propósito y pide cambiarlo."}
+{"id": "dev-25", "input": "¿Podríais añadir la opción de pagar con transferencia? Ahora solo aceptáis tarjeta.", "expected": "petición", "dificultad": "ambiguo", "nota": "Regla 3: habla de pagos, pero el cobro funciona como está diseñado y pide una opción nueva."}

@@ -1,0 +1,15 @@
+{"id": "test-01", "input": "Al arrastrar una tarjeta a otra columna vuelve a su sitio original.", "expected": "bug", "dificultad": "fácil", "nota": "El cambio no se aplica."}
+{"id": "test-02", "input": "Los gráficos del panel salen en blanco desde esta mañana.", "expected": "bug", "dificultad": "fácil", "nota": "Los gráficos han dejado de funcionar."}
+{"id": "test-03", "input": "Al importar un CSV se pierden las tildes y las eñes.", "expected": "bug", "dificultad": "fácil", "nota": "Datos que se guardan mal."}
+{"id": "test-04", "input": "La app se queda congelada al abrir un documento con muchas imágenes.", "expected": "bug", "dificultad": "fácil", "nota": "La app deja de responder."}
+{"id": "test-05", "input": "No puedo descargar mis facturas: el botón de descarga da un error de servidor.", "expected": "bug", "dificultad": "trampa", "nota": "Regla 1: dice 'facturas', pero hay que arreglar el botón, no revisar un cobro."}
+{"id": "test-06", "input": "La sincronización con el calendario ha dejado de funcionar y quiero saber si me vais a cobrar igual este mes.", "expected": "bug", "dificultad": "ambiguo", "nota": "Regla 2: mezcla bug y facturación; gana bug porque impide usar el producto ahora."}
+{"id": "test-07", "input": "Quiero pasar del plan mensual al anual, ¿cómo lo hago?", "expected": "facturación", "dificultad": "fácil", "nota": "Cambio de plan."}
+{"id": "test-08", "input": "Me ha llegado un cargo de una suscripción que no reconozco.", "expected": "facturación", "dificultad": "fácil", "nota": "Revisión de un cargo."}
+{"id": "test-09", "input": "La dirección fiscal de mis facturas está mal, ¿podéis corregirla?", "expected": "facturación", "dificultad": "fácil", "nota": "Corrección de datos de una factura."}
+{"id": "test-10", "input": "Hay un error en mi factura: me aplicáis IVA y mi empresa está exenta.", "expected": "facturación", "dificultad": "trampa", "nota": "Regla 1: dice 'error', pero hay que corregir la factura, no arreglar el producto."}
+{"id": "test-11", "input": "Olvidé la contraseña y el correo de mi cuenta ya no existe, ¿cómo recupero el acceso?", "expected": "acceso", "dificultad": "fácil", "nota": "Recuperación de acceso."}
+{"id": "test-12", "input": "Un antiguo empleado sigue teniendo acceso al espacio de trabajo y necesito quitárselo.", "expected": "acceso", "dificultad": "fácil", "nota": "Gestión de quién entra."}
+{"id": "test-13", "input": "No consigo iniciar sesión y la app del móvil también se cierra al abrirla.", "expected": "acceso", "dificultad": "ambiguo", "nota": "Regla 2: mezcla acceso y bug; gana acceso por el orden de desempate."}
+{"id": "test-14", "input": "Me gustaría poder programar el envío de informes por correo cada lunes.", "expected": "petición", "dificultad": "fácil", "nota": "Funcionalidad que no existe."}
+{"id": "test-15", "input": "¿Tenéis pensado sacar una integración con hojas de cálculo?", "expected": "petición", "dificultad": "fácil", "nota": "Funcionalidad que no existe."}
